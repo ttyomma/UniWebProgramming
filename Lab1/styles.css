@@ -1,0 +1,25 @@
+ul {
+background-color: rgb(255, 165, 80);
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+li {
+display: inline-block;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  display: block; 
+  font-family: sans-serif;
+  font-weight: medium;
+  text-transform: uppercase;
+}
+
+li:hover {
+  background-color: rgb(241, 3, 51);
+}
