@@ -1,0 +1,99 @@
+#nav, #nav li ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav > li {
+    float: left;
+    width: 120px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-top: 3px solid #e8e8e8;
+    border-right: 3px solid #e8e8e8;
+    border-bottom: 3px solid #e8e8e8;
+}
+
+#nav li ul {
+    position: absolute;
+    width: 120px;
+    display: none;
+    z-index: 100;
+}
+
+#nav li:hover > ul {
+    display: block;
+}
+
+#nav li ul li {
+    position: relative;
+}
+
+#nav li ul li > ul {
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #e8e8e8;
+    margin-top: 0;
+    z-index: 101;
+}
+
+#nav li ul li:hover > ul {
+    display: block;
+}
+
+#nav li ul ul {
+    background: #fff;
+    left: 120px;
+    top: 0;
+    margin-top: 0;
+    position: absolute;
+    display: none;
+    border: 2px solid #e8e8e8;
+}
+
+#nav > li > a {
+    font: 14px "Geargia";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#nav li ul li a {
+    font: 12px "Geargia";
+    text-decoration: none;
+    color: #000000;
+}
+
+#nav li ul {
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 2px solid #e8e8e8;
+}
+
+#nav li ul li{
+    text-align: left;
+    padding: 5px 5px 5px 15px;
+}
+
+#nav li ul li a:hover {
+    font: 14px "Geargia";
+    color: #553ccf;
+    text-decoration: none;
+}
+
+/* animation */
+@keyframes fadeIn {
+    from {transform: rotate(0);}
+    to {transform: rotate(-720deg);}
+}
+
+.announcement {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
