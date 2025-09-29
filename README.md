@@ -19,4 +19,4 @@ Repository for web programming labs for universities
 <hr>
 <h1>Lab4 | Bootstrap 👉<a href="https://github.com/ttyomma/UniWebProgramming/tree/main/Lab4"> Code </a></h1>
 <p>Result:</p>
-![giflab4](https://github.com/user-attachments/assets/57be0fed-f506-4f2c-b2c9-62470921ae7c)
+<img src="https://github.com/user-attachments/assets/57be0fed-f506-4f2c-b2c9-62470921ae7c">
